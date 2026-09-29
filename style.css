@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.landing-page{
+    background-image: url(./photos/landing.png);
+    height: 100vh;
+    background-position: top;
+    background-size: cover;
+}
+nav{
+    height: 12vh;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 12px;
+}
+button{
+    background-color: white;
+    border: 0;
+    display: flex;
+    align-items: center;
+    padding: 6px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    gap: 5px;
+    font-family: inherit;
+}
+button:hover{
+    scale: 0.95;
+    cursor: pointer;
+}
+.icon{
+    height: 16px;
+}
+
+/* .landing-quote{
+    display: flex;
+    flex-direction: column;
+    height: 88vh;
+    align-items: center;
+    justify-content: end;
+    padding-bottom: 60px;
+}
+.landing-quote .q-1{
+    font-size: 60px;
+}
+.landing-quote .q-2{
+    font-style: italic;
+} */
